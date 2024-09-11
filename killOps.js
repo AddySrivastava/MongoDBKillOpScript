@@ -12,6 +12,10 @@ let KILL_OP_MODE = process.env["KILL_OP_MODE"] || 0; //Kill op mode when sets to
 let MAX_SECS_THRESHOLD = 1; //max secs eg: 60
 let READS_ONLY = false; //target only reads, eg: true
 
+if(username || password || MONGO_URI) {
+    throw new Error("One or more env vars aren't set correctly")
+}
+
 let COMMANDS_LIST = !READS_ONLY ? WRITE_OPS : READ_OPS; //only reads or all
 
 //get long values from IP
