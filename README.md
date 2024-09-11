@@ -15,8 +15,7 @@ The script expects the following environment variables to be set:
 - `MONGODB_USER`: MongoDB username (e.g., `admin`)
 - `MONGODB_PASSWORD`: MongoDB password (e.g., `password`)
 - `KILL_OP_MODE`: If set to `true`, slow external operations will be killed
-- `MAX_SECS_THRESHOLD`: Maximum threshold in seconds for a slow operation (default: `60`)
-- `READS_ONLY`: Target only read operations if set to `true` (default: `true`) **PLEASE NOTE KILLING WRITE OPS MIGHT HAVE DATA INCONSISTENCY ISSUES*
+- `MONGO_URI`: MongoDB cluster uri eg - mongodb+srv://replicacluster.4xwip.mongodb.net/admin
 
 ## Command Types
 
@@ -47,7 +46,6 @@ The script expects the following environment variables to be set:
 ```export MONGODB_USER=admin
 export MONGODB_PASSWORD=password
 export KILL_OP_MODE=true
-export MAX_SECS_THRESHOLD=60
 export MONGODB_URI=mongodb+srv://replicacluster.4xwip.mongodb.net/admin
 ```
 3. Run the bash script
