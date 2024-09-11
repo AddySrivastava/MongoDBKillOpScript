@@ -43,7 +43,8 @@ The script expects the following environment variables to be set:
    ```
 
 2. Set the required environment variables:
-```export MONGODB_USER=admin
+```
+export MONGODB_USER=admin
 export MONGODB_PASSWORD=password
 export KILL_OP_MODE=true
 export MONGODB_URI=mongodb+srv://replicacluster.4xwip.mongodb.net/admin
