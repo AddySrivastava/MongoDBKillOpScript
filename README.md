@@ -4,9 +4,9 @@ This script connects to a MongoDB instance, monitors long-running operations, an
 
 ## Prerequisites
 
-- Node.js
-- MongoDB instance with appropriate authentication
-- `ip` package for IP manipulation
+- Node.js, mongosh has in-built node.js interepreter 
+- MongoDB instance with atlasAdmin and killOpSession built-in roles
+- globally installed`ip` package for IP manipulation
 
 ## Environment Variables
 
