@@ -1,0 +1,16 @@
+2024-09-12 00:08:35 - Starting mongosh script execution.
+2024-09-12 00:08:41 - MongoDB script executed successfully.
+2024-09-12 00:08:41 - MongoDB script execution finished.
+2024-09-12 00:09:09 - Starting mongosh script execution.
+2024-09-12 00:09:14 - MongoDB script executed successfully.
+2024-09-12 00:09:14 - MongoDB script execution finished.
+2024-09-12 00:11:35 - Starting mongosh script execution.
+2024-09-12 00:11:42 - MongoDB script executed successfully.
+2024-09-12 00:11:42 - MongoDB script execution finished.
+2024-09-12 00:11:49 - Starting mongosh script execution.
+2024-09-12 00:11:55 - MongoDB script executed successfully.
+2024-09-12 00:11:55 - MongoDB script execution finished.
+2024-09-12 00:55:06 - Starting mongosh script execution.
+Killed client 104.30.160.1:11657 operation with id: 57079810 and appName: MongoDB Compass, namespace: AppViewX.shared0, effectiveUsers: [{"user":"admin2","db":"admin"}], command:  {"q":{},"u":{"$set":{"foo":"sbar57wdsd"}},"multi":true,"upsert":false}
+2024-09-12 00:55:14 - MongoDB script executed successfully.
+2024-09-12 00:55:14 - MongoDB script execution finished.
